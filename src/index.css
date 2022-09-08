@@ -1,0 +1,81 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+:root {
+  --orange:hsla(26, 100%, 55%, 1);
+  --Paleorange: hsla(26, 100%, 94%, 1);
+  --main-bg:#FFFFFF;
+  --primary-black:hsla(220, 14%, 13%, 1);
+  --primary-gray:hsla(220, 9%, 45%, 1);
+  --secondary-gray:#69707D;
+}
+
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background:var(--main-bg);
+  height:100vh;
+  line-height: 1.5;
+}
+
+.container{
+
+  padding:0 24px;
+ 
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+.fw-400{
+  font-weight: 400;
+}
+.fw-700{
+  font-weight: 700;
+}
+
+
+.d-flex{
+  display:flex;
+}
+.d-flex-align-center{
+  align-items: center;
+}
+.d-flex-space-between{
+  justify-content: space-between;
+}
+.d-flex-justify-center{
+  justify-content: center;
+}
+.d-block{
+  display: block;
+}
+
+.btn-checkout{
+  background:var(--orange);
+  border:none;
+  border-radius: 10px;
+  color:var(--main-bg);
+  width:312px;
+  height:56px;
+  margin:0 auto;
+  font-size: 1rem;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin-bottom: 32px;
+}
+
+
+@media(min-width:900px){
+  .container{
+    padding:0 165px;
+    margin:0 auto;
+  }
+}
